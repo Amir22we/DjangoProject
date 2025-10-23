@@ -10,5 +10,5 @@ urlpatterns = [
     path('user/', views.user),
     path('winner/<str:name>/<int:price>/', views.winner),
     path('winner/<str:name>/', views.winner),
-    path('winner/', views.winner),
+    path('winner/', views.winner), 
 ]
